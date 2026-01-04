@@ -1,0 +1,53 @@
+.edit-copy-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textarea-container {
+    position: relative;
+}
+
+#editableText {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    font-size: 18px;
+	border-radius: 5px;
+    border: none;
+    outline: none;
+    resize: none;
+	margin-top: 2rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background: var(--card-bg);
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* if needed, add your styling here for button hover */
+/*
+button:hover {
+    
+}
+*/
+
+.message {
+    text-align: center;
+    color: green;
+	font-size: 1rem;
+    font-weight: bold;
+    display: none;
+}
